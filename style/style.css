@@ -1,0 +1,126 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #AAAAAA;
+    background-color: #FFFFFF
+    ;
+}
+/* section er container */
+.container{
+    display: flex;
+    background: #FFFFFF;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+/* end */
+/* journey and camera */
+.journey{
+    width: 582px;
+    height: 270px;
+    margin-left: 120px;
+}
+.journey a{
+    text-decoration: none;
+    color: whitesmoke;
+ background: #E02C6D;
+ width:116 px ;
+ height: 24px;
+ border-radius: 41px;
+ padding: 10px 22px;
+ margin-top: 16px;
+ font-size: 13px;
+ 
+}
+.camera{
+    width: 440px;
+    height: 414px;
+    margin-left: 133px;
+}
+/* font size */
+.journey>h1{
+    font-size: 3.2em;
+}
+/* font end */
+/* camera-rotate */
+.camera:hover{
+    transform:scale(.8) rotate(360deg);
+    transition: transform 2.5s;
+}
+.center{
+    text-align: center;
+    margin: 50px;
+}
+/* new .container */
+.container-2{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-row-gap: 40px;
+grid-column-gap: 40px;
+box-shadow: 0px 0px 40px #AAAAAA;
+border: 1PX solid #e6d6d6;
+border-radius: 9px;
+padding: 30px;
+margin: 15px 15px;
+margin-left: 35px;
+
+}
+
+.photo{
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 5px;
+}
+product-border{
+    width: 250px;
+    height: 300px;
+
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+.product-title{
+    width: 100%;
+    margin: 15px;
+}
+.target{
+    text-align: end;
+    text-decoration: none;
+    color: #E02C6D;
+ width:116 px ;
+ height: 24px;
+ 
+ margin-top: 16px;
+ font-size: 13px;
+}
+.checked{
+    color: orange;
+}
+.empty{
+    color: orange;
+}
+/* new article */
+.article{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.htt{
+    text-decoration: none;
+    color: whitesmoke;
+ background: #E02C6D;
+ width:116 px ;
+ height: 24px;
+ padding: 10px 22px;
+ margin-top: 16px;
+ font-size: 13px;
+}
+
+.last-pera{
+margin-left: 70px;
+}
+.end{
+    text-align: center;
+    background-color: #0A0826;
+    color: white;
+}
